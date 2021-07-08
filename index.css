@@ -1,0 +1,80 @@
+body 
+{
+  margin: 0;
+  background-color :navy;
+}
+
+.head
+{
+  background-color:aqua;
+  height : 50px;
+  margin-top: 50px;
+}
+.main
+{
+  display: flex;
+}
+.leftbox
+{
+  flex: 1;
+  background-color :powderblue;
+  margin-left: 100px;
+  margin-top :50px;
+  height : 500px;
+  width : 30%;
+  font-weight: bold;
+  text-decoration: solid;
+  font-family :'Times New Roman', Times, serif;
+  font-size :large;
+  padding-left: 30px;
+  border-radius: 20px;
+  margin-right: 40px;
+}
+
+.rightbox
+{
+  background-color : powderblue;
+  margin-right: 100px;
+  margin-top :50px;
+  height : 500px;
+  width : 50%;
+  font-weight : bold;
+  text-decoration: solid;
+  font-family :'Times New Roman', Times, serif;
+  font-size :large;
+  padding-left: 30px;
+  border-radius: 20px;
+ 
+  
+  overflow-y: scroll;
+}
+
+input
+{
+  width : 90%;
+  height :20px;
+  border-radius: 5px;
+}
+button
+{
+  text-align: center;
+  text-decoration: solid;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: medium;
+  background-color:aqua;
+  color:black ;
+}
+.btn
+{
+  margin-left: 30%;
+}
+.right{
+  border-radius: 5px;
+  height:70px;
+  position: relative;
+  border-right: 5px;
+  padding: 2.5px;
+  width:fit-content;
+
+}
